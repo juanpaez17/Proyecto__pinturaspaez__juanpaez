@@ -1,0 +1,174 @@
+/* ##################   HTML Index    ################### */
+.busqueda__h2--personal {
+  text-decoration: underline;
+}
+
+.busqueda__p--personal {
+  color: #a52a2a;
+}
+
+.busqueda__t--personal {
+  color: #0e9594;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-decoration: underline;
+}
+
+#principales option#red {
+  background-color: red;
+}
+
+#principales option#green {
+  background-color: green;
+}
+
+#principales option#blue {
+  background-color: blue;
+}
+
+#principales option#black {
+  background-color: black;
+  color: white;
+}
+
+#principales option#white {
+  background-color: white;
+}
+
+#principales option#yellow {
+  background-color: yellow;
+}
+
+#principales option#orange {
+  background-color: orange;
+}
+
+#principales option#grey {
+  background-color: grey;
+}
+
+#calidos option#red {
+  background-color: red;
+}
+
+#calidos option#green {
+  background-color: green;
+}
+
+#calidos option#blue {
+  background-color: blue;
+}
+
+#calidos option#black {
+  background-color: black;
+  color: white;
+}
+
+#calidos option#white {
+  background-color: white;
+}
+
+#calidos option#yellow {
+  background-color: yellow;
+}
+
+#calidos option#orange {
+  background-color: orange;
+}
+
+#calidos option#grey {
+  background-color: grey;
+}
+
+#recomendados option#red {
+  background-color: red;
+}
+
+#recomendados option#green {
+  background-color: green;
+}
+
+#recomendados option#blue {
+  background-color: blue;
+}
+
+#recomendados option#black {
+  background-color: black;
+  color: white;
+}
+
+#recomendados option#white {
+  background-color: white;
+}
+
+#recomendados option#yellow {
+  background-color: yellow;
+}
+
+#recomendados option#orange {
+  background-color: orange;
+}
+
+#recomendados option#grey {
+  background-color: grey;
+}
+
+/* ##############   HTML RECOMENDACIONES    ############# */
+.tituloRecomendaciones h3 {
+  margin-top: 30px;
+  height: 47px;
+}
+
+.contenido {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr;
+      grid-template-columns: 2fr;
+  -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 15px;
+  width: 70%;
+  margin: auto;
+}
+
+.contenido p {
+  background-color: rgba(173, 216, 230, 0.5);
+  border-radius: 15px;
+  padding: 5px;
+  margin-top: 10px;
+}
+
+/* ##############     HTML RECOMENDACIONES    ########### */
+/* resposive tablet */
+@media (min-width: 767px) and (max-width: 1023px) {
+  .tituloRecomendaciones h3 {
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .contenido {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    width: 80%;
+  }
+}
+
+/*  RESPONSIVE PANTALLA */
+@media (min-width: 1024px) {
+  .tituloRecomendaciones h3 {
+    font-size: 3rem;
+    margin-top: 35px;
+    margin-bottom: 35px;
+  }
+  .contenido {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    gap: 15px;
+    width: 90%;
+  }
+}
+/*# sourceMappingURL=styles--sass.css.map */

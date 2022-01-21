@@ -52,84 +52,7 @@ ul,ol,a{
 .bg__3--personal{
     background-color: lightyellow;
 }
-/************* boton selec de colores Principales*************** */
-#principales option#red{
-    background-color: red;
-}
-#principales option#green{
-    background-color:green;
-}
-#principales option#blue{
-    background-color:blue;
-}
-#principales option#black{
-    color: white;
-    background-color: black;
-}
-#principales option#white{
-    background-color: white;
-}
-#principales option#yellow{
-    background-color: yellow;
-}
-#principales option#orange{
-    background-color: orange;
-}
-#principales option#grey{
-    background-color: grey;
-}
-/************* boton selec de colores calidos*************** */
-#calidos option#red{
-    background-color: red;
-}
-#calidos option#green{
-    background-color:green;
-}
-#calidos option#blue{
-    background-color:blue;
-}
-#calidos option#black{
-    color: white;
-    background-color: black;
-}
-#calidos option#white{
-    background-color: white;
-}
-#calidos option#yellow{
-    background-color: yellow;
-}
-#calidos option#orange{
-    background-color: orange;
-}
-#calidos option#grey{
-    background-color: grey;
-}
-/************* boton selec de colores Recomendados*************** */
-#recomendados option#red{
-    background-color: red;
-}
-#recomendados option#green{
-    background-color:green;
-}
-#recomendados option#blue{
-    background-color:blue;
-}
-#recomendados option#black{
-    color: white;
-    background-color: black;
-}
-#recomendados option#white{
-    background-color: white;
-}
-#recomendados option#yellow{
-    background-color: yellow;
-}
-#recomendados option#orange{
-    background-color: orange;
-}
-#recomendados option#grey{
-    background-color: grey;
-}
+
 .footer__personal{
     background-color: rgba(0,0,0, 0.8);
     border-radius: 15px;
@@ -144,10 +67,13 @@ ul,ol,a{
 section div a{
     color: #0e9594;
 } 
+
+
+
 /* ###################################################### */
 /* ##############     HTML RECOMENDACIONES    ########### */
 /* ###################################################### */
-.tituloRecomendaciones h3{
+/* .tituloRecomendaciones h3{
     margin-top: 30px;
     height: 47px;
 }
@@ -166,7 +92,7 @@ section div a{
     margin-top: 10px;
 }
 /* resposive tablet */
-@media (min-width:767px) and (max-width:1023px){
+/* @media (min-width:767px) and (max-width:1023px){
     .tituloRecomendaciones h3{
         font-size: 2rem;
         margin-top: 20px;
@@ -179,8 +105,8 @@ section div a{
         width: 80%;
     }
 }
-/* RESPONSIVE PANTALLA */
-@media (min-width:1024px){
+/*  RESPONSIVE PANTALLA */
+/* @media (min-width:1024px){
 
     .tituloRecomendaciones h3{
         font-size: 3rem;
@@ -194,6 +120,8 @@ section div a{
         width: 90%;
     }
 }
+ */
+
 .h--personal{
     max-height: 700px;
 }

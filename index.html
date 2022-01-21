@@ -23,6 +23,8 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
         <!-- styles -->
         <link rel="stylesheet" href="./styles/stylespinturaspaez.css">
+        <!-- Sass -->
+        <link rel="stylesheet" href="./sass/styles--sass.css">
     </head>    
     <body class="body__personal container container-fluid">
         <div class="body__personal--bg container container-fluid ">
@@ -74,16 +76,16 @@
                   </nav>
             </header>
             <!-- Busqueda de Colores -->
-            <section class="container container-fluid">
-                <h2 class="estilo__subtitulo text-center display-6 mt-5 mb-5 animate__animated animate__swing">Elige tus Colores</h2>
+            <section class="busqueda container container-fluid">
+                <h2 class="busqueda__h2--personal estilo__subtitulo text-center display-6 mt-5 mb-5 animate__animated animate__swing">Elige tus Colores</h2>
                 <main class="eleccion container container-fluid" data-aos="fade-up-left">
                     <!-- colores principales -->
                     <div class="card text-center mb-5">
-                        <div class="card-header fw-bold">
+                        <div class="busqueda__t--personal card-header fw-bold">
                           Colores Principales
                         </div>
                         <div class="card-body bg__1--personal shadow-lg">
-                            <p class="card-text">Estos nuestros colores primarios</p>
+                            <p class="busqueda__p--personal card-text">Estos son nuestros colores principales</p>
                             <select name="principales" id="principales"> 
                                 <option value="E"; id="elige">Elegir</option>
                                 <option value="red" id="red">ROJO</option>
@@ -101,11 +103,11 @@
                     <!-- colores calidos -->
                     <!-- AUN NO TERMINADO -->
                     <div class="card text-center mb-5 shadow-lg">
-                        <div class="card-header fw-bold">
+                        <div class="busqueda__t--personal card-header fw-bold">
                           Colores Calidos
                         </div>
                         <div class="card-body bg__2--personal">
-                            <p class="card-text">Estos nuestros colores Calidos</p>
+                            <p class="busqueda__p--personal card-text">Estos son nuestros colores calidos</p>
                             <select name="calidos" id="calidos"> 
                                 <option value="E"; id="elige">Elegir</option>
                                 <option value="red" id="red">ROJO</option>
@@ -123,11 +125,11 @@
                     <!-- colores recomendados -->
                     <!-- AUN NO TERMINADO -->
                     <div class="card text-center mb-5">
-                        <div class="card-header fw-bold">
-                          Colores Calidos
+                        <div class="busqueda__t--personal card-header fw-bold">
+                          Colores Recomendados
                         </div>
                         <div class="card-body bg__3--personal shadow-lg">
-                            <p class="card-text">Estos nuestros colores Calidos</p>
+                            <p class="busqueda__p--personal card-text">Estos son nuestros colores recomendados</p>
                             <select name="recomendados" id="recomendados"> 
                                 <option value="E"; id="elige">Elegir</option>
                                 <option value="red" id="red">ROJO</option>

@@ -1,0 +1,108 @@
+// /* ###################################################### */
+/* ##################   HTML Index    ################### */
+// /* ############# ESTILO PARA EL CONTENIDO ############### */
+
+.busqueda{
+     &__h2--personal {
+          text-decoration: underline;
+     }
+     &__p--personal {
+          color: $colorPrincipal;
+     }
+     &__t--personal{
+          color: $colorSecundario;
+          background-color: rgba(0,0,0, 0.3);
+          text-decoration: underline;
+     }
+}
+// /************* boton selec de colores Principales*************** */
+#principales{
+     option{
+          &#red{
+               background-color: red;
+          }
+          &#green{
+               background-color: green;
+          }
+          &#blue{
+               background-color: blue;
+          }
+          &#black{
+               background-color: black;
+               color: white;
+          }
+          &#white{
+               background-color: white;
+          }
+          &#yellow{
+               background-color: yellow;
+          }
+          &#orange{
+               background-color: orange;
+          }
+          &#grey{
+               background-color: grey;
+          }
+     }
+}
+// /************* boton selec de colores Calidos*************** */
+#calidos{
+     option{
+          &#red{
+               background-color: red;
+          }
+          &#green{
+               background-color: green;
+          }
+          &#blue{
+               background-color: blue;
+          }
+          &#black{
+               background-color: black;
+               color: white;
+          }
+          &#white{
+               background-color: white;
+          }
+          &#yellow{
+               background-color: yellow;
+          }
+          &#orange{
+               background-color: orange;
+          }
+          &#grey{
+               background-color: grey;
+          }
+     }
+}
+
+// /************* boton selec de colores Recomendados*************** */
+#recomendados{
+     option{
+          &#red{
+               background-color: red;
+          }
+          &#green{
+               background-color: green;
+          }
+          &#blue{
+               background-color: blue;
+          }
+          &#black{
+               background-color: black;
+               color: white;
+          }
+          &#white{
+               background-color: white;
+          }
+          &#yellow{
+               background-color: yellow;
+          }
+          &#orange{
+               background-color: orange;
+          }
+          &#grey{
+               background-color: grey;
+          }
+     }
+}

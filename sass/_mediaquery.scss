@@ -1,0 +1,30 @@
+/* ##############     HTML RECOMENDACIONES    ########### */
+/* resposive tablet */
+@media (min-width:767px) and (max-width:1023px){
+    .tituloRecomendaciones h3{
+        font-size: 2rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contenido{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 15px;
+        width: 80%;
+    }
+}
+/*  RESPONSIVE PANTALLA */
+ @media (min-width:1024px){
+
+    .tituloRecomendaciones h3{
+        font-size: 3rem;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    .contenido{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 15px;
+        width: 90%;
+    }
+}
