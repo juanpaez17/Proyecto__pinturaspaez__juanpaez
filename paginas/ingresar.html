@@ -4,11 +4,14 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- SEO -->
         <title>Ingresar | Pinturas Páez</title>
+        <meta name="description" content="Se parte de nuestra comunidad">
+        <meta name="keywords" content="pinturas, pintar, pinceles, colores, hogar, interior, exterior,">
         <!-- reset css -->
         <link rel="stylesheet" href="./styles/reset.css">
         <!-- favicon -->
-        <link rel="shortcut icon" href="./imagenes/favicon-pint.ico" type="image/x-icon">
+        <link rel="shortcut icon" href="../imagenes/favicon-pint.ico" type="image/x-icon">
         <!-- google fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,6 +27,9 @@
         <link rel="stylesheet" href="../styles/stylespinturaspaez.css">
         <!-- stylos viejos para funcionalidad mientras paso todo a bootstrap -->
         <link rel="stylesheet" href="../styles/stylesviejos.css">
+        <!-- Sass -->
+        <link rel="stylesheet" href="../sass/styles-sass.css">
+
     </head>
     <body class="body__personal container container-fluid">
         <div class="body__personal--bg container container-fluid ">
@@ -75,28 +81,28 @@
         
             <!-- formulario de regristo -->
             <form action="" method="get" entype="text/plain" class="formulario"> 
-                <h4>A continuación vas a poder registrarte para obtener mas beneficios</h4>
+                <h4 class="estilo__subtitulo text-center display-6 mt-5 mb-5 animate__animated animate__swing">A continuación vas a poder registrarte para obtener mas beneficios</h4>
 
                 <fieldset class="registro">
                     <legend> Contactanos</legend>
                     <label for="name">Nombres</label>
-                        <input type="text" name="nombre" id="nombre" placeholder="Indique su Nombre" required>
+                        <input type="text" name="nombre" id="nombre" class="item1" placeholder="Indique su Nombre" required>
                     <label for="apellido">Apellido</label>
-                        <input type="text" name="apellido" id="apellido" placeholder="Indique su Apellido" required>
+                        <input type="text" name="apellido" id="apellido" class="item2" placeholder="Indique su Apellido" required>
                     <label for="email">Email</label>
-                        <input type="email" name="email" id="email" placeholder="Indique su Email" required>
+                        <input type="email" name="email" id="email" class="item3" placeholder="Indique su Email" required>
                     <label for="dni">Indique su DNI</label>
-                        <input type="number" name="dni" id="dni" placeholder="Indique su documento">
+                        <input type="number" name="dni" id="dni" class="item4" placeholder="Indique su documento">
                     <label for="telefono">Telefono</label>
-                        <input type="number" name="telefono" id="telefono" placeholder="Indique su Número">
+                        <input type="number" name="telefono" id="telefono" class="item5" placeholder="Indique su Número">
                     <label for="contraseña">Ingrese su Contraseña</label>
-                        <input type="password" name="contraseña" id="contraseña" placeholder="Contraseña" required>
+                        <input type="password" name="contraseña" id="contraseña" class="item6" placeholder="Contraseña" required>
                         <p><strong>(debe contener al menos una letra Mayúscula y un numero)</strong></p>
                     <label for="contraseña2">Confirme la Contraseña</label>
-                        <input type="password" name="contraseña2" id="contraseña2" placeholder="Confirme su Contraseña" required>
+                        <input type="password" name="contraseña2" id="contraseña2" class="item7" placeholder="Confirme su Contraseña" required>
                     
-                    <input type="checkbox" name="terminos" id="terminos">Acepta Terminos y Condiciones 
-                    <input type="submit" value="Enviar" id="botonEnviar">
+                    <input type="checkbox" name="terminos" id="terminos" >Acepta Terminos y Condiciones 
+                    <input type="submit" value="Enviar" id="botonEnviar" class="asignoColor atributoBoton">
                 </fieldset>
             </form>
         

@@ -1,5 +1,6 @@
 /* ##############     HTML RECOMENDACIONES    ########### */
 /* resposive tablet */
+@import "variables";
 @media (min-width:767px) and (max-width:1023px){
     .tituloRecomendaciones h3{
         font-size: 2rem;
@@ -27,4 +28,98 @@
         gap: 15px;
         width: 90%;
     }
+}
+/* ############## HTML Ingresar ############### */
+@media (min-width:400px) and (max-width:768px){
+    .body__personal{
+        .formulario{
+            h4.estilo__subtitulo{
+                height: $v30 * 2;
+            }
+        }
+    }
+}
+$dispositivo:mobile;
+
+.registro{
+    @if $dispositivo == mobile{
+        background-color: rgba($color: aqua , $alpha: 0.2);
+        font: {
+            family: arial;
+            size: 1.2rem;
+        }  
+        p{
+            font-size: 1.0rem;
+        }
+        legend{
+            font-size: 1.5rem;
+        }
+    }
+    @else if $dispositivo == tablet{
+        background-color: rgba($color: blue , $alpha: 0.2);
+        font: {
+            family: arial;
+            size: 1.3rem;
+        }  
+        p{
+            font-size: 1.1rem;
+        }
+        legend{
+            font-size: 1.6rem;
+        }
+    }
+    @else {
+        background-color: rgba($color: red , $alpha: 0.2);
+        font: {
+            family: arial;
+            size: 1.4rem;
+        }  
+        p{
+            font-size: 1.2rem;
+        }
+        legend{
+            font-size: 1.7rem;
+        }
+    }
+}
+$bgSubtitulo: (
+     item1: red,
+     item2: green,
+     item3: blue,
+     item4: black,
+     item5: White,
+     item6: yellow,
+     item7: orange,
+     item8: grey,
+);
+/* maps */
+@each $items,$color in $bgSubtitulo {
+    .formulario{
+        .registro{
+            .#{$items} {
+                background-color: $color;
+            }
+        }
+    }
+}
+/* maps gets */
+
+$colorTexto:(
+    primario: #a52a2a,
+    secundario:#0e9594,
+    basico: #000000,
+);
+
+.asignoColor{
+    color: map-get($colorTexto, primario);
+}
+/* mixin */
+@mixin botones{
+    padding: 15px;
+    border: 2px solid #000000;
+    background-color: #0e9594;
+    background: linear-gradient(#0e9594,#a52a2a)
+}
+.atributoBoton{
+    @include botones;
 }
