@@ -28,6 +28,42 @@
           margin-top: 10px;
 
      }
+};
+form{
+     h4{
+          text-align: center;
+          margin-top: 50px;
+     }
+     fieldset{
+          background-color:#0e9594;
+          padding: 15px;
+          border-radius: 15px;
+          margin:  50px auto 50px ;
+          max-width: 50vw;
+          justify-content: center;
+          input{
+               display: block;
+               text-align: center;
+               margin-bottom: 15px;
+          }
+          select{
+               display: block;
+               max-width: 160px;
+               margin-bottom: 15px
+          }
+          #notas{
+               display: block;
+               margin-bottom: 15px;
+          }
+          #terminos{
+               display: inline;
+               margin-bottom: 15px;
+          }
+          .boton--personal{
+               max-width: 50px;
+          }
+
+     }
 }
 
 @import "mediaquery";

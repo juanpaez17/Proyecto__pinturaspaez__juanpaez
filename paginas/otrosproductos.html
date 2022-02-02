@@ -27,6 +27,8 @@
         <link rel="stylesheet" href="../styles/stylespinturaspaez.css">
         <!-- stylos viejos para funcionalidad mientras paso todo a bootstrap -->
         <link rel="stylesheet" href="../styles/stylesviejos.css">
+        <!-- Sass -->
+        <link rel="stylesheet" href="../sass/styles-sass.css">
     </head>
     <body class="body__personal container container-fluid">
         <div class="body__personal--bg container container-fluid ">
@@ -44,7 +46,6 @@
                         <a class="a__enlance--personal" href="../paginas/ingresar.html">Ingresar</a>
                     </div>
                 </div>
-                           
                 <!-- navbar -->
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
@@ -54,20 +55,20 @@
                     <div class="collapse navbar-collapse bg__bordo rounded-3 p-2 justify-content-lg-center " id="navbarNav">
                             <ul class="navbar-nav">
                                 <li class="nav-item ">
-                                    <a class="nav-link active text-warning text-center" aria-current="page" href="../index.html">Inicio</a>
+                                    <a class="nav-link active text-warning text-center ajustexxl--personal" aria-current="page" href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-warning text-center" href="./recomendaciones.html">Recomendaciones</a>
+                                    <a class="nav-link active text-warning text-center ajustexxl--personal" href="./recomendaciones.html">Recomendaciones</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-warning text-center" href="./pintoresautorizados.html">Pintores autorizados</a>
+                                    <a class="nav-link active text-warning text-center ajustexxl--personal" href="./pintoresautorizados.html">Pintores autorizados</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active text-warning text-center" href="./otrosproductos.html">Otros productos</a>
+                                    <a class="nav-link active text-warning text-center ajustexxl--personal" href="./otrosproductos.html">Otros productos</a>
                                 </li><li class="nav-item">
-                                    <a class="nav-link active text-warning text-center" href="./contacto.html">Contacto</a>
+                                    <a class="nav-link active text-warning text-center ajustexxl--personal" href="./contacto.html">Contacto</a>
                                 </li><li class="nav-item">
-                                    <a class="nav-link active text-warning text-center" href="./ingresar.html">Ingresar</a>
+                                    <a class="nav-link active text-warning text-center ajustexxl--personal" href="./ingresar.html">Ingresar</a>
                                 </li>
                             </ul>
                         </div>
@@ -77,9 +78,7 @@
             <div>
                 <h3 class="estilo__subtitulo text-center display-6 mt-5 mb-5 animate__animated animate__swing">Otros Productos</h3>
             </div>    
-
             <div class="container row row-cols-auto mb-5">
-
                 <div class="row row-cols-auto">
                     <div class="col col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4 p-2">
                         <div class="card mx-auto" style="width: 150px;">
@@ -147,7 +146,7 @@
             <footer class="footer__personal container container-fluid row container d-flex justify-content-between align-content-between p-2">
                 <div class="col-5">
                     <h4>Opciones</h4>                
-                    <ul>
+                    <ul class="footer__ul">
                         <li><a href="../index.html">Inicio</a></li>
                         <li><a href="./recomendaciones.html">Recomendaciones</a></li>
                         <li><a href="./pintoresautorizados.html">Pintores Autorizados</a></li>
@@ -157,17 +156,16 @@
                     </ul>
                 </div>
                 <div class="col-2">
-
                 </div>
                 <!-- Redes sociales -->
                 <div class="col-5">
                     <h5>Nuestras redes sociales</h5>
-                    <ul>
+                    <ul class="footer__ul">
                         <li><a href="https://www.twitter.com", target="_blank"><i class="bi bi-twitter"></i></a></li>
                         <li><a href="https://www.instagram.com", target="_blank"><i class="bi bi-instagram"></i></a> </li>
                         <li><a href="https://www.youtube.com", target="_blank"><i class="bi bi-youtube"></i></a></li>
                         <li><a href="https://www.likedin.com", target="_blank"><i class="bi bi-linkedin"></i></a></li>
-                        <li><a href="../index.html", target="_blank"><i class="bi bi-share"></i></a></li> <!-- luego se modifica con la pagina web con dominio -->
+                        <li><a href="../index.html", target="_blank"><i class="bi bi-share"></i></a></li> 
                     </ul>
                 </div>
             </footer>

@@ -21,18 +21,6 @@ body{
     font-weight: 700;
     padding: 2%;
 }
-/* body .container{
-    display: flex;
-    flex-direction: column;
-    background-image: url(../imagenes/lineasEnPared.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
-    width: 99%;
-    border-radius: 10px;
-    padding: 2%;
-} */
-
 /*________________________ html__home--header__________________________ */
 .header{
     background-color: rgba(0,0,0, 0.8);
@@ -105,27 +93,6 @@ body{
 .navParaResponsive{
     visibility: hidden;
 }
-/* ******** Animaciones******* */
-/* @keyframes efecto__arriba {
-    0%{
-        font-size:0.5rem ;
-    }
-    30%{
-        font-size: 1rem;
-    }
-    100%{
-        font-size: 4rem;
-    }
-}
-.h1__efecto{
-    animation-name: efecto__arriba;
-    animation-iteration-count: 2;
-    animation-delay: 0s;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-}
- */
-
 /* _____________________html__home--eleccion_________________ */
 .colores h2{
     font-size: 1.5rem;

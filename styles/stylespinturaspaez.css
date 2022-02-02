@@ -40,17 +40,6 @@ ul,ol,a{
     color:#0e9594;
     font-weight: 700;
 }
-/* @media (min-width:400px) and (max-width:767px){
-    .estilo__subtitulo{
-        height: 70px;
-        background-color: red;
-        
-    }
-    
-} */
-
-
-
 .bg__bordo{
     background-color: rgb(165, 40, 40,0.5);
 }
@@ -71,7 +60,9 @@ ul,ol,a{
     top: 20px;
     margin: auto;
 }
-
+.footer__ul{
+    padding-left: 0;
+}
 .footer__personal div ul li a{
     color: #0e9594;
 }
