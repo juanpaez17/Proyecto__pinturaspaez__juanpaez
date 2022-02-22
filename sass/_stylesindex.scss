@@ -1,8 +1,34 @@
 // /* ###################################################### */
 /* ##################   HTML Index    ################### */
 // /* ############# ESTILO PARA EL CONTENIDO ############### */
-
+ul{
+     li{
+          span{
+               font-weight:bold;
+               font-size: 1.3rem;
+               color: #0e9594;
+          }
+     }
+}
+.contenido__index{
+    background-color: #d17a22;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10px; 
+    &--item{
+         border-radius: 15px;
+         background-color:#c5d5e4;
+         margin: 20px 0;
+         padding: 10px;
+    }
+}
 .busqueda{
+     background-image: url(../imagenes/pinturaPared.jpeg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     border-radius: 10px;
+     margin-top: 30px;
+     padding:10px ;
      &__h2--personal {
           text-decoration: underline;
      }
@@ -14,10 +40,14 @@
           background-color: rgba(0,0,0, 0.3);
           text-decoration: underline;
      }
+     &__informacion{
+          background-color: #c5d5e4;
+          border-radius: 10px;
+          padding: 10px;
+          margin-bottom: 25px;
+     }
 }
 // /************* boton selec de colores Principales*************** */
-
-
 #principales{
      option{
           &#red{
@@ -50,30 +80,29 @@
 // /************* boton selec de colores Calidos*************** */
 #calidos{
      option{
-          &#red{
-               background-color: red;
+          &#rosa{
+               background-color: #f3b9c6;
           }
-          &#green{
-               background-color: green;
+          &#verdeagua{
+               background-color: #b9e28c;
           }
-          &#blue{
-               background-color: blue;
+          &#azulcielo{
+               background-color:#bce7fd;
           }
-          &#black{
-               background-color: black;
-               color: white;
+          &#terracota{
+               background-color: #cc7466;
           }
-          &#white{
-               background-color: white;
+          &#rosapiel{
+               background-color: #e9c8c3;
           }
-          &#yellow{
-               background-color: yellow;
+          &#rosacalido{
+               background-color: #ebc2d3;
           }
-          &#orange{
-               background-color: orange;
+          &#platinio{
+               background-color: #ebeaeb;
           }
-          &#grey{
-               background-color: grey;
+          &#lavanda{
+               background-color: #ac7287;
           }
      }
 }
@@ -81,30 +110,58 @@
 // /************* boton selec de colores Recomendados*************** */
 #recomendados{
      option{
-          &#red{
-               background-color: red;
+          &#vino{
+               background-color: #632b30;
           }
-          &#green{
-               background-color: green;
+          &#bosque{
+               background-color: #0a775f;
           }
-          &#blue{
-               background-color: blue;
+          &#azuloscuro{
+               background-color: #1f4590;
           }
-          &#black{
-               background-color: black;
-               color: white;
+          &#grisclaro{
+               background-color: #798c92;
           }
-          &#white{
-               background-color: white;
+          &#marfil{
+               background-color: #f4e6c1;
           }
-          &#yellow{
-               background-color: yellow;
+          &#nube{
+               background-color: #75b7ba;
           }
-          &#orange{
-               background-color: orange;
+          &#persa{
+               background-color: #e99557;
           }
-          &#grey{
-               background-color: grey;
+          &#caramelo{
+               background-color: #c99b67;
+          }
+     }
+}
+.videos{
+     margin: 30px auto;
+     background-color: #d17a22;
+     border-radius: 10px;
+     padding:10px ;
+     &__h4{
+          text-decoration: underline;
+     }
+     &__informacion{
+          background-color: #c5d5e4;
+          border-radius: 10px;
+          padding: 10px;
+          margin-bottom: 25px;
+     }
+     &__muestra{
+          margin: auto;
+          padding: 15px;
+          gap: 30px;
+     }
+}
+@media (min-width:1200px) {
+     ul{
+          li{
+               span{
+                    font-size: 1.6rem;
+               }
           }
      }
 }

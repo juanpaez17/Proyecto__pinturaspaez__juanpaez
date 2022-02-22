@@ -7,15 +7,13 @@ ul,ol,a{
 }
 
 .body__personal{
-    background-color: #a52a2a;
+    background-color: #343636;
     font-family: 'Indie Flower', cursive;
     font-weight: 700;
     padding: 10px;
+    padding-bottom: 0;
 }
 .body__personal--bg{
-    background-image: url(../imagenes/lineasEnPared.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
     border-radius: 10px;
 }
 .header__personal{
@@ -23,7 +21,7 @@ ul,ol,a{
     border-radius: 15px;
     color: #a52a2a;
     position: sticky;
-    top: 20px;
+    top: 0px;
     margin: auto;
     z-index: 10;
 }
@@ -44,13 +42,13 @@ ul,ol,a{
     background-color: rgb(165, 40, 40,0.5);
 }
 .bg__1--personal{
-    background-color: rgb(255, 160, 122);
+    background-color: #ffd166;
 }
 .bg__2--personal{
-    background-color: lightblue;
+    background-color: #a8dadc;
 }
 .bg__3--personal{
-    background-color: lightyellow;
+    background-color: #e63946;
 }
 
 .footer__personal{
@@ -69,7 +67,22 @@ ul,ol,a{
 section div a{
     color: #0e9594;
 } 
-.h--personal{
-    max-height: 700px;
+@media (min-width:992px) {
+    .contenido__index, .busqueda__informacion,.videos__informacion,.footer__personal{
+        font-size: 1.2rem;
+    }
+    .estilo__subtitulo{
+        font-size: 2.3rem;
+    }
+    .busqueda__p--personal,.busqueda__t--personal{
+        font-size: 1.3rem;
+    }
 }
-
+@media (min-width:1200px) {
+    .contenido__index, .busqueda__informacion,.videos__informacion,.busqueda__p--personal,.busqueda__t--personal,.footer__personal{
+        font-size: 1.5rem;
+    }
+    .estilo__subtitulo{
+        font-size: 2.6rem;
+    }
+}

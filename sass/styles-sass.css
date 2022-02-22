@@ -1,4 +1,33 @@
 /* ##################   HTML Index    ################### */
+ul li span {
+  font-weight: bold;
+  font-size: 1.3rem;
+  color: #0e9594;
+}
+
+.contenido__index {
+  background-color: #d17a22;
+  margin: auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
+.contenido__index--item {
+  border-radius: 15px;
+  background-color: #c5d5e4;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.busqueda {
+  background-image: url(../imagenes/pinturaPared.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  margin-top: 30px;
+  padding: 10px;
+}
+
 .busqueda__h2--personal {
   text-decoration: underline;
 }
@@ -11,6 +40,13 @@
   color: #0e9594;
   background-color: rgba(0, 0, 0, 0.3);
   text-decoration: underline;
+}
+
+.busqueda__informacion {
+  background-color: #c5d5e4;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
 }
 
 #principales option#red {
@@ -46,88 +82,131 @@
   background-color: grey;
 }
 
-#calidos option#red {
-  background-color: red;
+#calidos option#rosa {
+  background-color: #f3b9c6;
 }
 
-#calidos option#green {
-  background-color: green;
+#calidos option#verdeagua {
+  background-color: #b9e28c;
 }
 
-#calidos option#blue {
-  background-color: blue;
+#calidos option#azulcielo {
+  background-color: #bce7fd;
 }
 
-#calidos option#black {
-  background-color: black;
-  color: white;
+#calidos option#terracota {
+  background-color: #cc7466;
 }
 
-#calidos option#white {
-  background-color: white;
+#calidos option#rosapiel {
+  background-color: #e9c8c3;
 }
 
-#calidos option#yellow {
-  background-color: yellow;
+#calidos option#rosacalido {
+  background-color: #ebc2d3;
 }
 
-#calidos option#orange {
-  background-color: orange;
+#calidos option#platinio {
+  background-color: #ebeaeb;
 }
 
-#calidos option#grey {
-  background-color: grey;
+#calidos option#lavanda {
+  background-color: #ac7287;
 }
 
-#recomendados option#red {
-  background-color: red;
+#recomendados option#vino {
+  background-color: #632b30;
 }
 
-#recomendados option#green {
-  background-color: green;
+#recomendados option#bosque {
+  background-color: #0a775f;
 }
 
-#recomendados option#blue {
-  background-color: blue;
+#recomendados option#azuloscuro {
+  background-color: #1f4590;
 }
 
-#recomendados option#black {
-  background-color: black;
-  color: white;
+#recomendados option#grisclaro {
+  background-color: #798c92;
 }
 
-#recomendados option#white {
-  background-color: white;
+#recomendados option#marfil {
+  background-color: #f4e6c1;
 }
 
-#recomendados option#yellow {
-  background-color: yellow;
+#recomendados option#nube {
+  background-color: #75b7ba;
 }
 
-#recomendados option#orange {
-  background-color: orange;
+#recomendados option#persa {
+  background-color: #e99557;
 }
 
-#recomendados option#grey {
-  background-color: grey;
+#recomendados option#caramelo {
+  background-color: #c99b67;
+}
+
+.videos {
+  margin: 30px auto;
+  background-color: #d17a22;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.videos__h4 {
+  text-decoration: underline;
+}
+
+.videos__informacion {
+  background-color: #c5d5e4;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+
+.videos__muestra {
+  margin: auto;
+  padding: 15px;
+  gap: 30px;
+}
+
+@media (min-width: 1200px) {
+  ul li span {
+    font-size: 1.6rem;
+  }
 }
 
 /* ##############   HTML RECOMENDACIONES    ############# */
-.tituloRecomendaciones h3 {
-  margin-top: 30px;
-  height: 47px;
+.tutoriales {
+  background-color: #d17a22;
+  background-image: url(../imagenes/pinturaRodillo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 15px;
+  margin: 30px auto;
+  padding: 10px;
+}
+
+.tutoriales__tituloRecomendaciones h3 {
+  height: 55px;
+}
+
+.tutoriales__informacion {
+  background-color: rgba(173, 216, 230, 0.5);
+  border-radius: 15px;
+  padding: 5px;
+  margin: 20px auto;
 }
 
 .contenido {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 2fr;
-      grid-template-columns: 2fr;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-  gap: 15px;
-  width: 70%;
   margin: auto;
+  text-align: center;
 }
 
 .contenido p {
@@ -137,20 +216,90 @@
   margin-top: 10px;
 }
 
-form h4 {
+/* ############### html__pintoresAutorizados ################ */
+.pintores {
+  padding: 10px;
+}
+
+.pintores__informacion, .pintores__enlaces {
+  background-color: #d17a22;
+  border-radius: 15px;
+  border: 1px solid #0e9594;
+  padding: 15px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+}
+
+.pintores__enlaces {
   text-align: center;
+}
+
+.pintores__enlaces a {
+  display: block;
+  color: #a52a2a;
+}
+
+.pintores__enlaces a:hover {
+  cursor: pointer;
+  font-size: 1.7rem;
+}
+
+.pintores__enlaces a:visited {
+  color: #0e9594;
+}
+
+/* ############## html__otrosProductos################# */
+.catalogo {
+  background-image: url(../imagenes/pinturaGoteando.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 100px;
+  padding: 20px;
+}
+
+.catalogo__disposicion {
+  text-align: center;
+  margin: auto;
+}
+
+.catalogo__item {
+  background-color: #0e9594;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.h4__contacto {
+  text-align: center;
+  margin-top: 30px;
+  text-decoration: underline;
+  font-size: 1.7rem;
+}
+
+form {
+  background-image: url(../imagenes/pinturaPared.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
   margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 15px;
 }
 
 form fieldset {
   background-color: #0e9594;
-  padding: 15px;
+  padding: 5px;
   border-radius: 15px;
-  margin: 50px auto 50px;
+  margin: 5px auto 5px;
   max-width: 50vw;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+form fieldset legend {
+  background-color: #a52a2a;
+  border-radius: 10px;
+  text-align: center;
 }
 
 form fieldset input {
@@ -175,24 +324,25 @@ form fieldset #terminos {
   margin-bottom: 15px;
 }
 
-form fieldset .boton--personal {
-  max-width: 50px;
+form fieldset .acepto {
+  color: #a52a2a;
 }
 
-/* ############## HTML Ingresar ############### */
-@media (min-width: 400px) and (max-width: 768px) {
-  .body__personal .formulario h4.estilo__subtitulo {
-    height: 60px;
-  }
+form fieldset .boton--personal {
+  max-width: 100px;
+  margin: 20px auto;
 }
 
 /* ##############     HTML RECOMENDACIONES    ########### */
 /* resposive tablet */
 @media (min-width: 767px) and (max-width: 1023px) {
-  .tituloRecomendaciones h3 {
+  .tutoriales__tituloRecomendaciones h3 {
     font-size: 2rem;
     margin-top: 20px;
     margin-bottom: 20px;
+  }
+  .tutoriales__informacion {
+    font-size: 1.3rem;
   }
   .contenido {
     -ms-grid-columns: 1fr 1fr;
@@ -200,16 +350,19 @@ form fieldset .boton--personal {
     -ms-grid-rows: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
-    width: 80%;
+    font-size: 1.1rem;
   }
 }
 
 /*  RESPONSIVE PANTALLA */
 @media (min-width: 1024px) {
-  .tituloRecomendaciones h3 {
+  .tutoriales__tituloRecomendaciones h3 {
     font-size: 3rem;
     margin-top: 35px;
     margin-bottom: 35px;
+  }
+  .tutoriales__informacion {
+    font-size: 1.6rem;
   }
   .contenido {
     -ms-grid-columns: 1fr 1fr;
@@ -217,11 +370,14 @@ form fieldset .boton--personal {
     -ms-grid-rows: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     gap: 15px;
-    width: 90%;
+    font-size: 1.3rem;
   }
 }
 
 @media (min-width: 992px) {
+  .pintores__informacion, .pintores__enlaces {
+    font-size: 1.6rem;
+  }
   ul li .ajustexxl--personal {
     font-size: 1.1rem;
     margin: 0 10px 0 10px;
@@ -241,6 +397,15 @@ form fieldset .boton--personal {
   }
 }
 
+/* ############## HTML Ingresar ############### */
+@media (min-width: 400px) and (max-width: 767px) {
+  .body__personal .formulario h4.estilo__subtitulo {
+    height: 60px;
+    text-decoration: underline;
+  }
+}
+
+/* ########### html__contacto ############ */
 @media (min-width: 768px) {
   form h4 {
     text-align: center;
@@ -262,11 +427,15 @@ form fieldset .boton--personal {
   }
   form fieldset .boton--personal {
     max-width: 70px;
+    border-radius: 10px;
   }
 }
 
+/* ############ html__ingresar############# */
 .registro {
-  background-color: rgba(0, 255, 255, 0.2);
+  background-color: rgba(0, 255, 255, 0.4);
+  max-width: 50vw;
+  text-align: center;
   font-family: arial;
   font-size: 1.2rem;
 }
@@ -279,9 +448,13 @@ form fieldset .boton--personal {
   font-size: 1.5rem;
 }
 
+.registro input {
+  margin-top: 5px;
+}
+
 /* maps gets */
 .asignoColor {
-  color: #a52a2a;
+  color: #000000;
 }
 
 /* mixin */

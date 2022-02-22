@@ -1,53 +1,58 @@
-/* ############## HTML Ingresar ############### */
-@media (min-width:400px) and (max-width:768px){
-    .body__personal{
-        .formulario{
-            h4.estilo__subtitulo{
-                height: $v30 * 2;
-            }
-        }
-    }
-}
+@import "variables";
 /* ##############     HTML RECOMENDACIONES    ########### */
 /* resposive tablet */
-@import "variables";
 @media (min-width:767px) and (max-width:1023px){
-    .tituloRecomendaciones h3{
+    .tutoriales{
+        &__tituloRecomendaciones h3{
         font-size: 2rem;
         margin-top: 20px;
         margin-bottom: 20px;
+        }
+        &__informacion{
+            font-size: 1.3rem;
+        }
     }
     .contenido{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 15px;
-        width: 80%;
+        font-size: 1.1rem;
     }
 }
 /*  RESPONSIVE PANTALLA */
- @media (min-width:1024px){
-
-    .tituloRecomendaciones h3{
+@media (min-width:1024px){
+    
+    .tutoriales{
+        &__tituloRecomendaciones h3{
         font-size: 3rem;
         margin-top: 35px;
         margin-bottom: 35px;
+        }
+        &__informacion{
+            font-size: 1.6rem;
+        }
     }
     .contenido{
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr;
         gap: 15px;
-        width: 90%;
+        font-size: 1.3rem
     }
 };
 //######### Html Pintores Autorizados#########
 @media (min-width:992px) {
+    .pintores{
+        &__informacion,&__enlaces{
+            font-size: 1.6rem;
+        }
+    }
     ul{
         li{
             .ajustexxl--personal{
                 font-size: 1.1rem;
                 margin: 0 10px 0 10px;
             }
-
+            
         }
     }
     .a__enlance--personal{
@@ -61,14 +66,25 @@
                 font-size: 1.4rem;
                 margin: 0 10px 0 10px;
             }
-
+            
         }
     }
     .a__enlance--personal{
         font-size: 1.7rem;
     }
 }
-// ########### html Ingresar#############
+/* ############## HTML Ingresar ############### */
+@media (min-width:400px) and (max-width:767px){
+    .body__personal{
+        .formulario{
+            h4.estilo__subtitulo{
+                height: $v30 * 2;
+                text-decoration: underline;
+            }
+        }
+    }
+}
+/* ########### html__contacto ############ */
 @media (min-width:768px) {
     form{
         h4{
@@ -90,16 +106,20 @@
             }
             .boton--personal{
                 max-width: 70px;
+                border-radius: 10px;
             }
    
         }
    }
 }
+/* ############ html__ingresar############# */
 $dispositivo:mobile;
 
 .registro{
     @if $dispositivo == mobile{
-        background-color: rgba($color: aqua , $alpha: 0.2);
+        background-color: rgba($color: aqua , $alpha: 0.4);
+        max-width: 50vw;
+        text-align: center;
         font: {
             family: arial;
             size: 1.2rem;
@@ -109,6 +129,9 @@ $dispositivo:mobile;
         }
         legend{
             font-size: 1.5rem;
+        }
+        input{
+            margin-top: 5px;
         }
     }
     @else if $dispositivo == tablet{
@@ -148,7 +171,7 @@ $colorTexto:(
 );
 
 .asignoColor{
-    color: map-get($colorTexto, primario);
+    color: map-get($colorTexto, basico);
 }
 /* mixin */
 @mixin botones{

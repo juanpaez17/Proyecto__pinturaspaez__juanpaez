@@ -4,21 +4,32 @@
 // /* ###################################################### */
 /* ##############   HTML RECOMENDACIONES    ############# */
 // /* ############# ESTILO PARA EL CONTENIDO ############### */
-
-
-.tituloRecomendaciones{
-     h3{
-          margin-top:30px;
-          height: 47px;
+.tutoriales{
+     background-color: #d17a22;
+     background-image: url(../imagenes/pinturaRodillo.jpeg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 15px;
+     margin: 30px auto;
+     padding:10px;
+     &__tituloRecomendaciones{
+          h3{
+               height: 55px;
+          }
+     }
+     &__informacion{
+          background-color: rgba(173,216,230, 0.5);
+          border-radius: 15px;
+          padding: 5px;
+          margin: 20px auto;
      }
 }
 .contenido{
-    display: grid;
-    grid-template-columns: 2fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 15px;
-    width: 70%;
-    margin: auto;
+     display: grid;
+     grid-template-columns: 1fr;
+     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+     margin: auto;
+     text-align: center;
 }
 .contenido{
      p{
@@ -28,19 +39,76 @@
           margin-top: 10px;
 
      }
-};
-form{
-     h4{
-          text-align: center;
-          margin-top: 50px;
+}
+/* ############### html__pintoresAutorizados ################ */
+.pintores{
+     padding: 10px;
+     &__informacion,&__enlaces{
+          background-color: #d17a22;
+          border-radius: 15px;
+          border: 1px solid #0e9594;
+          padding: 15px;
+          margin-bottom: 20px;
+          font-size: 1.2rem;
      }
+     &__enlaces{
+          text-align: center;
+          a{
+               display: block;
+               color: #a52a2a;
+          }
+          a:hover{
+               cursor: pointer;
+               font-size: 1.7rem;
+          }
+          a:visited{
+               color: #0e9594;
+          }
+     }
+}
+/* ############## html__otrosProductos################# */
+.catalogo{
+     background-image: url(../imagenes/pinturaGoteando.jpeg );
+     background-repeat: no-repeat;
+     background-size: cover;
+     border-radius: 100px;
+     padding: 20px;
+     &__disposicion{
+          text-align: center;
+          margin: auto;
+     }
+     &__item{
+          background-color: #0e9594;
+          padding: 10px;
+          border-radius: 15px;
+     }
+}
+.h4__contacto{
+     text-align: center;
+     margin-top: 30px;
+     text-decoration: underline;
+     font-size: 1.7rem;
+}
+form{
+     background-image: url(../imagenes/pinturaPared.jpeg);
+     background-repeat: no-repeat;
+     background-size:cover;
+     padding: 20px;
+     margin-top: 50px;
+     margin-bottom: 50px;
+     border-radius: 15px;
      fieldset{
           background-color:#0e9594;
-          padding: 15px;
+          padding: 5px;
           border-radius: 15px;
-          margin:  50px auto 50px ;
+          margin:  5px auto 5px ;
           max-width: 50vw;
           justify-content: center;
+          legend{
+               background-color: #a52a2a;
+               border-radius: 10px;
+               text-align: center;
+          }
           input{
                display: block;
                text-align: center;
@@ -59,8 +127,13 @@ form{
                display: inline;
                margin-bottom: 15px;
           }
+          .acepto{
+               color: #a52a2a;
+          }
           .boton--personal{
-               max-width: 50px;
+               max-width: 100px;
+               margin: 20px auto
+
           }
 
      }

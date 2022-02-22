@@ -30,7 +30,7 @@
         <link rel="stylesheet" href="./sass/styles-sass.css">
     </head>    
     <body class="body__personal container container-fluid">
-        <div class="body__personal--bg container container-fluid ">
+        <div class="body__personal--bg container container-md container-lg container-fluid ">
             <header class="header__personal container container-fluid row">
                 <!-- titulo -->
                 <div class=" container row d-flex justify-content-evenly align-content-between p-2 align-self-center">
@@ -52,35 +52,47 @@
                       <button class="navbar-toggler bg__bordo" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                       </button>
-                      <div class="collapse navbar-collapse bg__bordo rounded-3 p-2 justify-content-lg-center " id="navbarNav">
-                        <ul class="navbar-nav">
-                          <li class="nav-item ">
-                            <a class="nav-link active text-warning text-center ajustexxl--personal" aria-current="page" href="../index.html">Inicio</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/recomendaciones.html">Recomendaciones</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/pintoresautorizados.html">Pintores autorizados</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/otrosproductos.html">Otros productos</a>
-                          </li><li class="nav-item">
-                            <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/contacto.html">Contacto</a>
-                          </li><li class="nav-item">
-                            <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/ingresar.html">Ingresar</a>
-                          </li>
-                          
-                          
-                        </ul>
+                        <div class="collapse navbar-collapse bg__bordo rounded-3 p-2 justify-content-lg-center " id="navbarNav">
+                            <ul class="navbar-nav">
+                            <li class="nav-item ">
+                                <a class="nav-link active  text-center ajustexxl--personal" aria-current="page" href="../index.html"> <span>Inicio</span> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/recomendaciones.html"> <span>Recomendaciones</span> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/pintoresautorizados.html"> <span>Pintores autorizados</span> </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/otrosproductos.html"> <span>Otros productos</span> </a>
+                            </li><li class="nav-item">
+                                <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/contacto.html"> <span>Contacto</span></a>
+                            </li><li class="nav-item">
+                                <a class="nav-link active text-warning text-center ajustexxl--personal" href="./paginas/ingresar.html"> <span>Ingresar</span></a>
+                            </li>
+                            </ul>
                       </div>
-                      
                     </div>
                   </nav>
             </header>
+            <div class="contenido__index container container-fluid row d-flex">
+                <div class="contenido__index--item contenido__index--box1">
+                    <p>"No todos sabemos pintar,es por esto que nace esta asesoria digital para ayudarte a decorar tu casa con los colores de temporada, algunos tutoriales, recomendaciones y lo que nos caracteriza aseforia personalizada por profesionales para tu hogar"</p>
+                </div>
+                <div class="contenido__index--item contenido__index--box2">
+                    <p>
+                        Los asesores que te atenderan son profesionales en todas las areas que necesites para lograr ese cambio que necesitas, en tu vida, en tu hogar, en tu lugar de trabajo, o en tu espacio personal
+                    </p>
+                </div>
+            </div>
             <!-- Busqueda de Colores -->
             <section class="busqueda container container-fluid">
-                <h2 class="busqueda__h2--personal estilo__subtitulo text-center display-6 mt-5 mb-5 animate__animated animate__swing">Elige tus Colores</h2>
+                <h2 class="busqueda__h2--personal estilo__subtitulo text-center display-6 mb-5 animate__animated animate__swing">Elige tus Colores</h2>
+                <div class="busqueda__informacion container text-center">
+                    <p>
+                        En esta seccion vas a poder ver los colores que tenemos a tu disposicion, con el nombre especifico de cada color, vas a poder indicarle a tu asesor tu eleccion para que te arme alguna paleta de colores ajustados a tu medida. 
+                    </p>
+                </div>
                 <main class="eleccion container container-fluid" data-aos="fade-up-left">
                     <!-- colores principales -->
                     <div class="card text-center mb-5">
@@ -112,14 +124,14 @@
                             <p class="busqueda__p--personal card-text">Estos son nuestros colores calidos</p>
                             <select name="calidos" id="calidos"> 
                                 <option value="E"; id="elige">Elegir</option>
-                                <option value="red" id="red">ROJO</option>
-                                <option value="green", id="green">VERDE</option>
-                                <option value="blue",  id="blue" >AZUL</option>
-                                <option value="black", id="black" >NEGRO</option>
-                                <option value="white", id="white" >BLANCO</option>
-                                <option value="yellow", id="yellow" >AMARILLO</option>
-                                <option value="orange", id="orange" >NARANJA</option>
-                                <option value="grey", id="grey" >GRIS</option>
+                                <option value="rosa" id="rosa">ROSA</option>
+                                <option value="verdeagua", id="verdeagua">VERDE-AGUA</option>
+                                <option value="azulcielo",  id="azulcielo" >AZUL-CIELO</option>
+                                <option value="terracota", id="terracota" >TERRACOTA</option>
+                                <option value="rosapiel", id="rosapiel" >ROSA-PIEL</option>
+                                <option value="rosacalido", id="rosacalido" >ROSA-CALIDO</option>
+                                <option value="platinio", id="platinio" >PLATINIO</option>
+                                <option value="lavanda", id="lavanda">LAVANDA</option>
                             </select>
                         </div>
                         <div class="card-footer text-muted"></div>
@@ -133,14 +145,14 @@
                             <p class="busqueda__p--personal card-text">Estos son nuestros colores recomendados</p>
                             <select name="recomendados" id="recomendados"> 
                                 <option value="E"; id="elige">Elegir</option>
-                                <option value="red" id="red">ROJO</option>
-                                <option value="green", id="green">VERDE</option>
-                                <option value="blue",  id="blue" >AZUL</option>
-                                <option value="black", id="black" >NEGRO</option>
-                                <option value="white", id="white" >BLANCO</option>
-                                <option value="yellow", id="yellow" >AMARILLO</option>
-                                <option value="orange", id="orange" >NARANJA</option>
-                                <option value="grey", id="grey" >GRIS</option>
+                                <option value="vino" id="vino">VINO</option>
+                                <option value="bosque", id="bosque">BOSQUE</option>
+                                <option value="azuloscuro",  id="azuloscuro" >AZUL-OSCURO</option>
+                                <option value="grisclaro", id="grisclaro">GRIS-CLARO</option>
+                                <option value="marfil", id="marfil">MARFIL</option>
+                                <option value="nube", id="nube">NUBE</option>
+                                <option value="persa", id="persa" >PERSA</option>
+                                <option value="caramelo", id="caramelo" >CARAMELO</option>
                             </select>
                         </div>
                         <div class="card-footer text-muted"></div>
@@ -148,22 +160,26 @@
                 </main>
             </section>
             <!-- Videos -->
-            <section class=" container container-fluid row videos">     
-                <h4 class="estilo__subtitulo text-center display-6 mt-5 mb-5 animate__animated animate__swing ">Sugerencias</h4>
-                <div class="container container-fluid row">
-                    <div class=" col col-8 col-sm-8 col-md-8 m-sm-auto col-lg-4 col-xl-4">
+            <section class="container container-fluid row videos text-center">     
+                <h4 class="videos__h4 estilo__subtitulo text-center display-6 mt-5 mb-5 animate__animated animate__swing ">Sugerencias</h4>
+                <div class="videos__informacion">
+                    <p>
+                        Desde un principio somos tus "Asesores", asi que aqui tenes alguos tutoriales basicos para tener ideas y formas de hacer los cambios
+                    </p>
+                </div>
+                <div class="videos__muestra container container-fluid row">
+                    <div class=" col col-12 col-sm-12 col-md-8 m-sm-auto col-lg-4 col-xl-4">
                         <iframe src="https://www.youtube.com/embed/zqdUj1DksRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="col col-8 col-sm-8 col-md-8 col-lg-4 col-xl-4 m-sm-auto">
+                    <div class="col col-12 col-sm-12 col-md-8 col-lg-4 col-xl-4 m-sm-auto">
                         <iframe   src="https://www.youtube.com/embed/JNo893YA5ws" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="col col-8 col-sm-8 col-md-8 col-lg-4 col-xl-4 m-sm-auto">
+                    <div class="col col-12 col-sm-12 col-md-8 col-lg-4 col-xl-4 m-sm-auto">
                         <iframe   src="https://www.youtube.com/embed/XgD_HHdaPx0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="text-center m-4 fw-bold">
-
-                    <a  href="./paginas/recomendaciones.html" id="recomendaciones1">Ir a Recomendaciones (mas videos)</a>
+                <div class=" text-center m-4 fw-bold">
+                    <a  href="./paginas/recomendaciones.html" id="recomendaciones1"> <span>Ir a Recomendaciones (mas videos)</span> </a>
                 </div>
             </section>
             <!-- footer -->
@@ -181,9 +197,7 @@
                     </ul>
                 </div>
                 <div class="col-2">
-
                 </div>
-                
                 <!-- Redes sociales -->
                 <div class="col-5">
                     <h5>Nuestras redes sociales</h5>
